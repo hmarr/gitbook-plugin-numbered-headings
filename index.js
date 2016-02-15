@@ -4,7 +4,7 @@ var RESET_TEMPLATE = [
   '  counter-reset: h1 SECTION_NUM;',
   '}',
   '</style>'
-].join('\n');
+].join('\n') + '\n';
 
 module.exports = {
   ebook: {
