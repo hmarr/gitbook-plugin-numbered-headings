@@ -1,10 +1,10 @@
-const RESET_TEMPLATE = `
-<style>
-body {
-  counter-reset: h1 SECTION_NUM;
-}
-</style>
-`
+var RESET_TEMPLATE = [
+  '<style>',
+  'body {',
+  '  counter-reset: h1 SECTION_NUM;',
+  '}',
+  '</style>'
+].join('\n');
 
 module.exports = {
   ebook: {
